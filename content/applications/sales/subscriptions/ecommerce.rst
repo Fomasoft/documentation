@@ -5,7 +5,15 @@ Subscriptions in the eCommerce shop
 Subscription products can be sold in the Odoo *eCommerce* shop just like regular sales products.
 
 .. seealso::
+<<<<<<< 03fcee1a54a636cf35aa85e08bc7ee38f5b7b0c6
    - :doc:`Configure subscription products </applications/sales/subscriptions/products>`
+||||||| 8c59526adc30d8c824fbcf6ae47f5526f8b2849a
+   - :doc:`Configure subscription products </applications/sales/subscriptions/products>`
+   - :doc:`Product variants </applications/sales/sales/products_prices/products/variants>`
+=======
+   - :doc:`Configure subscription products </applications/sales/subscriptions>`
+   - :doc:`Product variants </applications/sales/sales/products_prices/products/variants>`
+>>>>>>> f4858dae88dff237bb6e3cda16edf2ae29c5f143
 
 Selling eCommerce subscriptions
 ===============================

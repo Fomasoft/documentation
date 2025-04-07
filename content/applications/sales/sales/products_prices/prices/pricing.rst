@@ -19,6 +19,24 @@ Configuration --> Settings`. In the :guilabel:`Pricing` section, tick the checkb
 .. image:: pricing/pricelist-feature-setting.png
    :alt: How the pricelist feature setting looks in Odoo Sales.
 
+<<<<<<< 03fcee1a54a636cf35aa85e08bc7ee38f5b7b0c6
+||||||| 8c59526adc30d8c824fbcf6ae47f5526f8b2849a
+After clicking the checkbox beside the :guilabel:`Pricelists` feature, select one of those two
+options, then click :guilabel:`Save` to save all changes.
+
+Pricelists
+==========
+
+=======
+After clicking the checkbox beside the :guilabel:`Pricelists` feature, select one of those two
+options, then click :guilabel:`Save` to save all changes.
+
+.. _sales/product_prices/pricelist:
+
+Pricelists
+==========
+
+>>>>>>> f4858dae88dff237bb6e3cda16edf2ae29c5f143
 After activating and saving the :guilabel:`Pricelists` feature, the :guilabel:`Settings` page
 reloads. From here, either select the :icon:`oi-arrow-right` :guilabel:`Pricelists` link (beneath
 the :guilabel:`Pricelists` feature on the :guilabel:`Settings` page), or navigate to
@@ -128,8 +146,8 @@ From here, there are several configuration options:
 Recurring Prices tab
 --------------------
 
-Recurring prices are specifically used with :doc:`subscription products
-<../../../subscriptions/products>`.
+Time-based rules are used specifically with subscription products. Be sure to check out the Odoo
+:doc:`Subscriptions </applications/sales/subscriptions>` documentation for more information.
 
 Under the :guilabel:`Recurring Prices` tab, the same functionality of the :guilabel:`Price Rules`
 tab is present. The only difference being that a recurring time period can be applied in the
@@ -201,7 +219,12 @@ Lastly, there is the option to add an :guilabel:`E-commerce Promotional Code`. T
 in the desired promo code that, when entered during the checkout process, applies the pricelist to
 the customer, even if the customer does not fall into the previously-specified criteria.
 
-Then, in the :guilabel:`Discounts` section, there is a :guilabel:`Discount Policy` field with two
+.. _sales/products_prices/discounts:
+
+Show discount percentage to customers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In the :guilabel:`Discounts` section, there is a :guilabel:`Discount Policy` label with two radio
 options to choose from: :guilabel:`Discount included in the price` or :guilabel:`Show public price &
 discount to the customer`.
 
